@@ -48,8 +48,6 @@ The dataset comprises Airbnb listings, calendar pricing, and reviews data for Se
 - Source: [Seattle Airbnb Open Data](http://insideairbnb.com/get-the-data.html)
 - Year: 2016 (historic data)
 
-Note: Data is slightly outdated but useful for demonstration. Feel free to update from the link above.
-
 ---
 
 ## ⚖️ Use Case
