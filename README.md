@@ -1,31 +1,88 @@
 # Seattle-Airbnb-Data-Analysis---Tableau
 This project involves analyzing a simulated Seattle Airbnb dataset using Tableau to uncover trends and insights related to pricing, availability, and customer reviews. The primary goal is to identify patterns that can aid in decision-making for hosts, guests, and platform administrators.
 
-## Tools Used 🛠️
-- **Tableau Desktop**: For creating interactive dashboards and visualizations.
+🗂 Project Overview
 
-**Features**
+The dataset comprises Airbnb listings, calendar pricing, and reviews data for Seattle. This beginner-friendly project demonstrates:
 
-Cleaned and transformed Airbnb dataset for structured analysis.
+Data joins and preparation across multiple sheets (Listings, Calendar, Reviews)
 
-Designed visualizations including heatmaps, bar charts, and scatter plots.
+Building a multi-page Tableau dashboard
 
-Implemented calculated fields, parameters, and filters for dynamic insights.
+Applying a real-world use case: "Where should I invest in Airbnb properties in Seattle?"
 
-Focused on analyzing factors affecting price, availability, and customer ratings.
+Filtering, mapping, and calculating KPIs like average price and seasonal trends
 
-**Visualizations**
+📊 Key Objectives
 
-Heatmaps: To showcase density and popularity of Airbnb listings across neighborhoods.
+Identify profitable neighborhoods based on zip code and pricing
 
-Bar Charts: Displaying average prices and ratings by neighborhood.
+Visualize seasonal trends in bookings and pricing
 
-Scatter Plots: Analyzing relationships between various metrics like price and availability.
+Analyze listing competition by bedroom count
 
-## Findings 🔍
+Map pricing geographically using Tableau
 
-The visualizations provided insights into popular neighborhoods, pricing patterns, high-demand periods, and relationships between customer ratings and availability. Additionally, calculated fields were used to derive metrics such as average price per neighborhood, occupancy rates, and booking trends over time.
+Create an interactive and visually appealing dashboard
 
-## Conclusion 🎯
+🚀 Features
 
-This analysis offers valuable insights for stakeholders to optimize pricing strategies, identify high-demand areas, and improve overall service quality.
+🔄 Inner joins between Calendar and Listings using listing_id
+
+🌆 Zip code level price visualizations (bar chart + map)
+
+⏰ Revenue over time (time series by week)
+
+🏠 Bedroom count vs. price and listing volume
+
+🔣 Interactive filters on map for geographical insights
+
+📂 Repository Contents
+
+Seattle_Airbnb_Full_Dataset.xlsx: Cleaned and merged dataset used in Tableau
+
+Seattle_Airbnb_Dashboard.twb: Tableau workbook with all dashboards and sheets
+
+README.md: Documentation and project guide (you are here)
+
+📅 Data Sources
+
+Source: Seattle Airbnb Open Data
+
+Year: 2016 (historic data)
+
+Note: Data is slightly outdated but useful for demonstration. Feel free to update from the link above.
+
+⚖️ Use Case
+
+The dashboard answers the question:
+
+"As an investor, where and when should I buy and list an Airbnb property in Seattle to maximize revenue and minimize competition?"
+
+Insights delivered include:
+
+Best zip codes for high average price
+
+High revenue seasons (summer and holidays)
+
+Relationship between bedrooms and pricing
+
+Competition distribution across property sizes
+
+📆 Dashboard Visualizations
+
+Average Price by Zip Code
+
+Map of Seattle Zip Codes Colored by Price
+
+Revenue by Week
+
+Average Price by Bedroom Count
+
+Listing Count by Bedroom Count
+
+💼 Technologies Used
+
+Tableau Public / Desktop
+
+Microsoft Excel (for combining raw CSVs)
